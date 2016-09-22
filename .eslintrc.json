@@ -1,0 +1,35 @@
+{
+  "root": true,
+  "extends": "eslint:recommended",
+  "env": {
+    "es6": true
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "semi": 2,
+    "no-console": 0,
+    "no-unused-vars": 1,
+    "comma-dangle": 1,
+    "no-multi-spaces": 0,
+    "no-mixed-spaces-and-tabs": 1,
+    "quotes": [2, "single"],
+    "dot-notation": 0,
+    "no-fallthrough": 0
+  },
+  "globals": {
+    "TextDecoder": false,
+    "Components": false,
+    "document": false,
+    "atob": false,
+    "window": false,
+    "imns": false,
+    "global": false,
+    "iimPlayCode": false,
+    "iimGetLastExtract": false
+  }
+}

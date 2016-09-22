@@ -1,0 +1,35 @@
+{
+  "name": "getbot-imacros-sdk",
+  "version": "1.0.0",
+  "description": "GetBot SDK for iMacros' JavaScript macros.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getbot/getbot-imacros-sdk.git"
+  },
+  "keywords": [
+    "getbot",
+    "imacros"
+  ],
+  "author": {
+    "name": "Alexander Sukhov",
+    "email": "support@getbot.ru",
+    "url": "http://www.getbot.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/getbot/getbot-imacros-sdk/issues"
+  },
+  "homepage": "https://github.com/getbot/getbot-imacros-sdk#readme",
+  "dependencies": {
+    "browser-bunyan": "0.4.0"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}
