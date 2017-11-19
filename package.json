@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/getbot/getbot-imacros-sdk#readme",
   "dependencies": {
-    "browser-bunyan": "0.4.0"
+    "browser-bunyan": "0.4.0",
+    "lodash.once": "4.1.1"
   },
   "browserify": {
     "transform": [

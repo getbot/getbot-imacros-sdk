@@ -30,6 +30,7 @@
     "imns": false,
     "global": false,
     "iimPlayCode": false,
-    "iimGetLastExtract": false
+    "iimGetLastExtract": false,
+    "iimGetLastError": false
   }
 }
