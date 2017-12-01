@@ -1,6 +1,6 @@
-import accountMgr   from './lib/accountMgr.js';
-import createLogger from './lib/Logger.js';
-import playMacro    from './lib/playMacro.js';
+import {accountMgr}   from './lib/accountMgr';
+import {createLogger} from './lib/Logger';
+import * as playMacro from './lib/playMacro';
 
 export {
   createLogger,
