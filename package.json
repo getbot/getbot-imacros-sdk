@@ -1,5 +1,5 @@
 {
-  "name": "getbot-imacros-sdk",
+  "name": "@getbot/imacros-sdk",
   "version": "1.0.0",
   "description": "GetBot SDK for iMacros' JavaScript macros.",
   "main": "index.js",
@@ -15,8 +15,8 @@
     "imacros"
   ],
   "author": {
-    "name": "Alexander Sukhov",
-    "email": "support@getbot.ru",
+    "name": "Alex Sukhov",
+    "email": "abs@getbot.ru",
     "url": "http://www.getbot.ru"
   },
   "license": "MIT",
